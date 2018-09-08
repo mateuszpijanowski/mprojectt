@@ -1,0 +1,6 @@
+<FilesMatch "tools.php">
+	AuthName "Dostêp do Dev Tools wymaga autoryzacji!"
+	AuthType Basic
+	AuthUserFile /home/lysyyyy/domains/mprojectt.com/public_html/.htpasswd
+	require valid-user
+</FilesMatch>

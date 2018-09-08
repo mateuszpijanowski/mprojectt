@@ -1,0 +1,355 @@
+/* CSS STYLE by MATEUSZ PIJANOWSKI */
+
+/*
+======
+ BASIC
+======
+*/
+
+body
+{
+    margin: 0;
+    /*background-color: #0E0F13;*/
+    background-color: #191d21;
+    color: #efefef;
+    font-family: 'Oswald', sans-serif;
+    font-size: 21px;
+}
+
+a:link    { color: #efefef; cursor: pointer; text-decoration: none; }
+
+a:visited
+{
+    color: #fff;
+}
+
+a:hover
+{
+    color: #fff;
+}
+
+a:active
+{
+	color: #fff;
+}
+
+a > p
+{
+    margin-top: 3%;
+}
+
+/*
+=====
+ LOGO
+=====
+*/
+
+h1.logo
+{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+    opacity: 0.9;
+    font-size: 350%;
+    font-weight: 700;
+    color: #ddd;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    transform: scale(1,1);
+    transition-timing-function: ease-out;
+    -webkit-transform: scale(1,1);
+    -webkit-transition-timing-function: ease-out;
+    -moz-transform: scale(1,1);
+    -moz-transition-timing-function: ease-out;
+    background: linear-gradient(currentColor, currentColor) bottom / 0 .1em no-repeat;
+    transition: all 0.8s;
+    -webkit-box-shadow: 0px 0px 0px 5px #990000;
+    -moz-box-shadow: 0px 0px 0px 5px #990000;
+    box-shadow: 0px 0px 0px 5px #990000;
+}
+
+h1.logo:hover
+{
+    opacity: 1;
+    transform: scale(1.05,1.07);
+   transition-timing-function: ease-out;
+   -webkit-transform: scale(1.05,1.07);
+   -webkit-transition-timing-function: ease-out
+   -moz-transform: scale(1.05,1.07);
+   -moz-transition-timing-function: ease-out;
+   position: relative;
+   z-index: 100;
+   cursor: pointer;
+   background-size: 100% .1em;
+   transition: all 0.8s;
+}
+
+h1 a
+{
+    text-decoration: none;
+    color: #ddd;
+}
+
+/*
+==========
+ MAIN PAGE
+==========
+*/
+
+main
+{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0E0F13;
+    width: 75%;
+    height: 100%;
+    padding-bottom: 150px;
+    -webkit-box-shadow: 0px 0px 60px 5px rgba(14,15,19,1);
+    -moz-box-shadow: 0px 0px 60px 5px rgba(14,15,19,1);
+    box-shadow: 0px 0px 60px 5px rgba(14,15,19,1);
+}
+
+article
+{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.zaddom
+{
+    text-align: center;
+    padding-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 450px;
+    max-height: 450px;
+}
+
+.zadania
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 450px;
+    max-height: 450px;
+    -webkit-box-shadow: 0px 0px 0px 5px rgba(25,29,33,1);
+    -moz-box-shadow: 0px 0px 0px 5px rgba(25,29,33,1);
+    box-shadow: 0px 0px 0px 5px rgba(25,29,33,1);
+}
+
+.photo
+{
+    margin-top: 50px;
+}
+
+.photonext
+{
+    margin-top: 100px;
+}
+
+.photo:hover
+{
+    width: 450px;
+}
+
+.overlay
+{
+
+	position: relative;
+	width: 450px;
+}
+
+.overlay .description
+{
+	position: absolute;
+	display: block;
+    text-align: center;
+    font-size: 28px;
+	width: 450px;
+	height: 65px;
+	background-color: #191d21;
+	left: 0px;
+	bottom: 100px;
+	opacity: 0;
+	transition: opacity 0.3s ease-in-out;
+}
+
+.overlay:hover .description
+{
+	opacity: 0.8;
+}
+
+/*
+=======
+ FOOTER
+=======
+*/
+
+footer
+{
+    padding-top: 25px;
+}
+
+.info
+{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 20px;
+    background-color: #191d21;
+}
+
+/* JS script ScrollTo */
+.scrollup
+{
+    min-width: 64px;
+    min-height: 64px;
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    background: url("img/up.png") no-repeat 0px 0px;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    display: none;
+}
+
+/*
+==================
+ ZAD 1 - MAIN PAGE
+==================
+*/
+
+#letter
+{
+    margin-top: 10px;
+    font-size: 28px;
+}
+
+/*
+==================
+ ZAD 2 - MAIN PAGE
+==================
+*/
+
+#generator
+{
+    margin-top: 50px;
+    font-size: 28px;
+}
+
+.checkbox
+{
+    font-size: 18px;
+}
+
+/*
+===========
+ FORM STYLE
+===========
+*/
+
+input[type=text]
+{
+    width: 300px;
+    background-color: #707070;
+    color: white;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    opacity: 0.8;
+}
+
+input[type=text]:focus
+{
+    border: 2px solid #990000;
+    color: #990000;
+    font-family: 'Oswald', sans-serif;
+    opacity: 1;
+}
+
+input[type=button]
+{
+    width: 300px;
+    background-color: #990000;
+    font-size: 20px;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    outline: none;
+    font-family: 'Oswald', sans-serif;
+    border: 2px solid #ddd;
+    opacity: 0.8;
+}
+
+input[type=button]:focus
+{
+    background-color: #138e0f;
+    font-family: 'Oswald', sans-serif;
+    opacity: 1;
+}
+
+input[type=button]:hover
+{
+    background-color: #138e0f;
+    font-family: 'Oswald', sans-serif;
+    opacity: 1;
+}
+
+input::-webkit-input-placeholder
+{
+    color: #999;
+    text-align: center;
+}
+input:focus::-webkit-input-placeholder
+{
+    color: #770909;
+}
+/* Firefox < 19 */
+input:-moz-placeholder
+{
+    color: #999;
+}
+input:focus:-moz-placeholder
+{
+    color: #770909;
+}
+/* Firefox > 19 */
+input::-moz-placeholder
+{
+    color: #999;
+}
+input:focus::-moz-placeholder
+{
+    color: #770909;
+}
+/* Internet Explorer 10 */
+input:-ms-input-placeholder
+{
+    color: #999;
+}
+input:focus:-ms-input-placeholder
+{
+    color: #770909;
+}

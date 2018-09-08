@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+    <meta charset="utf-8" />
+    <title>ZGADYWANKA</title>
+    <meta name="author" content="Mateusz Pijanowski">
+    <meta name="viewport" content="width=device-width; initial-scale=0.5" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="Shortcut icon" href="icon.png" />
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script type="text/javascript" src="zgadywanka.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <header>
+
+        <center><h1 class="logo"><a onclick="location.reload()">ZGADYWANKA</a></h1></center>
+
+    </header>
+
+    <main>
+
+        <article>
+
+            <span id="start_error">
+                Wprwadzono nierpawidłowe dane!
+            </span>
+
+            <div id="menu">
+                <div class="select-container">
+                <form name="settings">
+                    <select name="tryb">
+                        <option value="digits">Cyfry</option>
+                        <option value="lett">Litery</option>
+                        <option value="special">Znaki specjalne</option>
+                        <option value="cl">Cyfry i litery</option>
+                        <option value="all">Wszystko</option>
+                    </select>
+                </form>
+                </div>
+
+                <form>
+                    <br />
+                    <input type="text" id="letters" placeholder="Wprowadz liczbe znaków" onfocus="this.placeholder='Wprowadz liczbe znaków'" onblur="this.placeholder='Wprowadz liczbe znaków'" />
+                    <input type="text" id="time" placeholder="Wprowadz czas (s)" onfocus="this.placeholder='Wprowadz czas (s)'" onblur="this.placeholder='Wprowadz czas (s)'" />
+                    <br />
+                    <input type="button" value="Generuj" onclick="start()" />
+
+                </form>
+            </div>
+
+            <div id="generator">
+                <span id="generating"></span>
+            </div>
+
+            <div id="end">
+                <span id="end_time">
+                    <h2>KONIEC CZASU</h2>
+
+                    <div id="error">
+                        BŁĄD!
+                    </div>
+
+                    <input type="text" id="check" placeholder="Wprowadz zapamiętane znaki" onfocus="this.placeholder='Wprowadz zapamiętane znaki'" onblur="this.placeholder='Wprowadz zapamiętane znaki'" />
+                    <br />
+                    <input type="button" value="Sprawdz" onclick="check()" />
+                    <br />
+                    <a onclick="show()">Pokaż prawidłową kombinacje</a>
+                </span>
+            </div>
+
+            <div id="correct">
+                <h3>GRATULACJE!</h3>
+                <h4><a href="./index.html">Podano prawidłowy wynik!</a></h4>
+            </div>
+
+        </article>
+
+    </main>
+
+    <footer>
+
+    	<div class="info">
+    		&copy; <a target="_blank" href="http://mprojectt.com/">by Mateusz Pijanowski</a>
+    	</div>
+
+	</footer>
+
+</body>
+</html>
