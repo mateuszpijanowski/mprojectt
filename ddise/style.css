@@ -384,6 +384,7 @@ a.powered:hover
     right: 50px;
     bottom: 50px;
     display: none;
+    cursor: pointer;
 }
 
 /* Mobile version */

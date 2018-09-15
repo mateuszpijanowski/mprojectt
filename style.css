@@ -543,6 +543,7 @@ a:active
     bottom: 50px;
     display: none;
     z-index: 1000;
+    cursor: pointer;
 }
 
 /* Sticky menu style */

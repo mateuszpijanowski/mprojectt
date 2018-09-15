@@ -610,6 +610,7 @@ ol a
     bottom: 50px;
     display: none;
     z-index: 1000;
+    cursor: pointer;
 }
 
 .scrollup:hover
