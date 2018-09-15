@@ -170,7 +170,7 @@ function main()
     <head>
         <meta charset="utf-8" />
         <title>Fiszker - Zbi√≥r '.$ile.' w 10 kategoriach wiedzy!</title>
-        <meta name="description" content="ZbiÛr '.$ile.' wirtualnych fiszek w 10 kategoriach wiedzy!" />
+        <meta name="description" content="ZbiÔøΩr '.$ile.' wirtualnych fiszek w 10 kategoriach wiedzy!" />
         <meta name="keywords" content="fiszki, fiszka, wiedza, informatyka, nauka, medycyna, zapamietywanie, pamiec, techniki, technika, programowanie" />
         <link rel="Shortcut icon" href="img/icon.png" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -192,7 +192,7 @@ function main()
 
     <body>
 
-        <a href="#" class="scrollup"></a>
+        <a class="scrollup"></a>
 
         <header>
 

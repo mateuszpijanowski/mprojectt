@@ -127,7 +127,7 @@ function main()
 
     <body>
 
-        <a href="#" class="scrollup"></a>
+        <a class="scrollup"></a>
 
         <header>
 
