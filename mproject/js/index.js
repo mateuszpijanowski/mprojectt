@@ -1,3 +1,5 @@
+let date = "15.09.2018";
+
 $(document).ready(function() {
 
         // Contact hover function
@@ -82,7 +84,7 @@ $(document).ready(function() {
                 $('.start1').html('Eight project created with web technologies:');
                 $('.cv_i').html('Check my CV');
                 $('.copy_text').html('E-mail has been copied!');
-                $('#update').html('Last update: 07.09.2018');
+                $('#update').html('Last update: '+date+'');
             }
             else if ($(this).html() == "PL") // PL VERSION
             {
@@ -90,7 +92,7 @@ $(document).ready(function() {
                 $('.start1').html('Osiem projektów stworzonych z wykorzystaniem technologii:');
                 $('.cv_i').html('Sprawdź moje CV');
                 $('.copy_text').html('E-mail został skopiowany!');
-                $('#update').html('Ostatnia aktualizacja: 07.09.2018');
+                $('#update').html('Ostatnia aktualizacja: '+date+'');
             }
         });
 });
