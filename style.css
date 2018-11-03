@@ -463,6 +463,24 @@ a:active
     box-shadow: 0px 0px 50px 10px rgba(14,15,19,0.8);
 }
 
+.second_main
+{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #191d21;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+    height: 100%;
+    -webkit-box-shadow: 0px 0px 50px 10px rgba(14,15,19,0.8);
+    -moz-box-shadow: 0px 0px 50px 10px rgba(14,15,19,0.8);
+    box-shadow: 0px 0px 50px 10px rgba(14,15,19,0.8);
+}
+
 #footer
 {
     text-align: center;
@@ -536,6 +554,7 @@ a:active
     min-height: 64px;
     width: auto;
     height: auto;
+    cursor: pointer;
     text-decoration: none;
     background: url("mproject/img/up.png") no-repeat 0px 0px;
     position: fixed;
@@ -543,7 +562,6 @@ a:active
     bottom: 50px;
     display: none;
     z-index: 1000;
-    cursor: pointer;
 }
 
 /* Sticky menu style */

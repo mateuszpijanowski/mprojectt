@@ -604,13 +604,13 @@ ol a
     width: 64px;
     height: 64px;
     text-decoration: none;
+    cursor: pointer;
     background: url("img/up.png") no-repeat 0px 0px;
     position: fixed;
     right: 50px;
     bottom: 50px;
     display: none;
     z-index: 1000;
-    cursor: pointer;
 }
 
 .scrollup:hover

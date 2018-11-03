@@ -89,7 +89,7 @@ if (isset($connect_content))
                     {
                         $main = $main.'<div style="clear: both;"></div>';
                     }
-
+                    
                     if (!($i%2) && ($i==$how))
                     {
                         $main = $main.'

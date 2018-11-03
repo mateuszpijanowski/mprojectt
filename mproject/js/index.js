@@ -1,5 +1,3 @@
-let date = "15.09.2018";
-
 $(document).ready(function() {
 
         // Contact hover function
@@ -66,7 +64,7 @@ $(document).ready(function() {
                 delay: 300,
                 reset: true,
             });
-            sr.reveal('#github', {
+			sr.reveal('#github', {
                 delay: 400,
             });
             sr.reveal('#thanks', {
@@ -81,18 +79,18 @@ $(document).ready(function() {
             if ($(this).html() == "ENG") // ENG VERSION
             {
                 $(this).html('PL');
-                $('.start1').html('Eight project created with web technologies:');
+                $('.start1').html('Nine project created with web technologies:');
                 $('.cv_i').html('Check my CV');
                 $('.copy_text').html('E-mail has been copied!');
-                $('#update').html('Last update: '+date+'');
+                $('#update').html('Last update: 03.11.2018');
             }
             else if ($(this).html() == "PL") // PL VERSION
             {
                 $(this).html('ENG');
-                $('.start1').html('Osiem projektów stworzonych z wykorzystaniem technologii:');
+                $('.start1').html('Dziewięć projektów stworzonych z wykorzystaniem technologii:');
                 $('.cv_i').html('Sprawdź moje CV');
                 $('.copy_text').html('E-mail został skopiowany!');
-                $('#update').html('Ostatnia aktualizacja: '+date+'');
+                $('#update').html('Ostatnia aktualizacja: 03.11.2018');
             }
         });
 });

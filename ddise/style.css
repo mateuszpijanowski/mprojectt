@@ -378,13 +378,13 @@ a.powered:hover
     min-height: 64px;
     width: auto;
     height: auto;
+    cursor: pointer;
     text-decoration: none;
     background: url("img/up.png") no-repeat 0px 0px;
     position: fixed;
     right: 50px;
     bottom: 50px;
     display: none;
-    cursor: pointer;
 }
 
 /* Mobile version */
