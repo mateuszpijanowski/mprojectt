@@ -82,15 +82,15 @@ $(document).ready(function() {
                 $('.start1').html('Nine project created with web technologies:');
                 $('.cv_i').html('Check my CV');
                 $('.copy_text').html('E-mail has been copied!');
-                $('#update').html('Last update: 03.11.2018');
+                $('#update').html('Last update: 24.11.2018');
             }
             else if ($(this).html() == "PL") // PL VERSION
             {
                 $(this).html('ENG');
-                $('.start1').html('Dziewięć projektów stworzonych z wykorzystaniem technologii:');
+                $('.start1').html('Dziesięć projektów stworzonych z wykorzystaniem technologii:');
                 $('.cv_i').html('Sprawdź moje CV');
                 $('.copy_text').html('E-mail został skopiowany!');
-                $('#update').html('Ostatnia aktualizacja: 03.11.2018');
+                $('#update').html('Ostatnia aktualizacja: 24.11.2018');
             }
         });
 });
